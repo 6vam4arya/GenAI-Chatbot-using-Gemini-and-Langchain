@@ -25,6 +25,6 @@ Whether you're stuck on a tricky Python bug, want to discuss the latest NVIDIA G
 * **Language:** Python 
 
 ---
-## *🚀 Built by an inquisitive leaner and an evolving developer.*
+### *🚀 Built by an inquisitive leaner and an evolving developer.*
 
-# *~Vamika Arya*
+### *~Vamika Arya*
