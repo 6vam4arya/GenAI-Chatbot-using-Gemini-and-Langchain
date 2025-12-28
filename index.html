@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.39.0/gradio.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="main-container" id="main">
+        <div class="description-container">
+            <div class="profile-section">
+                <div class="profile-pic-container">
+                    <div class="profile-pic">
+                        <img class='student-pic' src="https://herobot.app/wp-content/uploads/2022/11/AI-bot-1.jpg"
+                            alt="ProfilePic" />
+                    </div>
+                </div>
+                <div class="profile-info-container">
+                    <h3 class="name">Vamika Arya</h3>
+                    <p class="bot-extra-info">Passionate Learner | Growing Developer</p>
+                </div>
+            </div>
+            <div class="project-details-container">
+                <div class="project-heading">
+                    <h1 class="heading">Generative AI ChatBot : Verve</h1>
+                </div>
+                <div class="project-description">
+                    <p class="description">Verve can be your All-in-One Assistant, from answering questions to engaging in casual conversations</p>
+                </div>
+            </div>
+            <div class="i-have-learnt-section">
+                <p class="i-have-learnt">Tech Stack Used</p>
+                <div class="topics-list">
+                    <div class="topic-icon">
+                        <div class="tooltip" id="googleColab">
+                            <!-- openai_svgrepo_com_1 -->
+                            <svg width="41" height="24" viewBox="0 0 41 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="zoom-svg">
+                                <path
+                                    d="M7.50478 7.85331L3.53332 3.86494C1.34239 6.06057 0.111938 9.03566 0.111938 12.1374C0.111938 15.2392 1.34239 18.2143 3.53332 20.4099L7.52168 16.4215C6.38527 15.2865 5.74533 13.7471 5.74216 12.1409C5.73899 10.5347 6.37286 8.99286 7.50478 7.85331Z"
+                                    fill="#E8710A" />
+                                <path
+                                    d="M3.53333 3.86497L7.50479 7.85334C8.06826 7.28921 8.7374 6.84167 9.47395 6.53633C10.2105 6.23099 11 6.07383 11.7974 6.07383C12.5947 6.07383 13.3842 6.23099 14.1208 6.53633C14.8573 6.84167 15.5264 7.28921 16.0899 7.85334L18.9798 2.90168L18.8108 2.76648C16.5567 1.08477 13.7727 0.270336 10.9676 0.47203C8.1625 0.673723 5.52366 1.87807 3.53333 3.86497Z"
+                                    fill="#F9AB00" />
+                                <path
+                                    d="M18.9967 21.3731L16.0899 16.4384C15.5264 17.0025 14.8573 17.45 14.1208 17.7554C13.3842 18.0607 12.5947 18.2179 11.7974 18.2179C11 18.2179 10.2105 18.0607 9.47395 17.7554C8.7374 17.45 8.06826 17.0025 7.50479 16.4384L3.53333 20.4267C5.51969 22.3959 8.14522 23.5892 10.935 23.7906C13.7247 23.9921 16.4945 23.1885 18.7432 21.5252L18.9291 21.3731"
+                                    fill="#F9AB00" />
+                                <path
+                                    d="M20.1121 3.86492C17.9211 6.06054 16.6907 9.03563 16.6907 12.1374C16.6907 15.2392 17.9211 18.2142 20.1121 20.4099L24.1004 16.4215C22.962 15.283 22.3224 13.739 22.3224 12.1289C22.3224 10.5189 22.962 8.97484 24.1004 7.83638C25.2389 6.69792 26.783 6.05834 28.393 6.05834C30.003 6.05834 31.5471 6.69792 32.6855 7.83638L36.6908 3.86492C35.603 2.77499 34.3109 1.91029 32.8885 1.3203C31.4661 0.730318 29.9413 0.426636 28.4014 0.426636C26.8615 0.426636 25.3367 0.730318 23.9144 1.3203C22.492 1.91029 21.1999 2.77499 20.1121 3.86492Z"
+                                    fill="#F9AB00" />
+                                <path
+                                    d="M36.6908 3.86494L32.7193 7.85331C33.8578 8.99177 34.4974 10.5359 34.4974 12.1459C34.4974 13.7559 33.8578 15.3 32.7193 16.4384C31.5809 17.5769 30.0368 18.2165 28.4268 18.2165C26.8168 18.2165 25.2727 17.5769 24.1342 16.4384L20.1121 20.4268C22.3083 22.6253 25.2879 23.8613 28.3955 23.8629C29.9342 23.8636 31.4579 23.5613 32.8798 22.9732C34.3017 22.3851 35.5938 21.5227 36.6824 20.4353C37.7709 19.3478 38.6347 18.0566 39.2242 16.6353C39.8138 15.214 40.1176 13.6905 40.1184 12.1518C40.1192 10.6132 39.8169 9.08937 39.2288 7.6675C38.6407 6.24563 37.7783 4.95352 36.6908 3.86494Z"
+                                    fill="#E8710A" />
+                            </svg>
+                            <span class="tooltiptext">Google Colab</span>
+                        </div>
+
+                    </div>
+                    <div class="topic-icon">
+                        <div class="tooltip" id="gemini">
+                            <svg width="19" height="20" viewBox="0 0 24 24" fill="none" class="zoom-svg gemini-logo"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 0C12 0 12.6316 6.31579 16.4211 10.1053C20.2105 13.8947 26.5263 14.5263 26.5263 14.5263C26.5263 14.5263 20.2105 15.1579 16.4211 18.9474C12.6316 22.7368 12 29.0526 12 29.0526C12 29.0526 11.3684 22.7368 7.57895 18.9474C3.78947 15.1579 -2.52632 14.5263 -2.52632 14.5263C-2.52632 14.5263 3.78947 13.8947 7.57895 10.1053C11.3684 6.31579 12 0 12 0Z"
+                                    fill="url(#gemini_gradient)" />
+                                <defs>
+                                    <linearGradient id="gemini_gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#4E88E4" />
+                                        <stop offset="100%" style="stop-color:#CF6E9D" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span class="tooltiptext">Gemini</span>
+                        </div>
+                    </div>
+                    <div class="topic-icon">
+                        <div class="tooltip" id="langChain">
+                            <img src="https://res.cloudinary.com/davztmw2w/image/upload/v1690651288/image_301_m0b2pw.png"
+                                class="zoom-svg langchain-logo" />
+                            <span class="tooltiptext">LangChain</span>
+                        </div>
+                    </div>
+                    <div class="topic-icon">
+                        <div class="tooltip" id="gradio">
+                            <img src="https://res.cloudinary.com/davztmw2w/image/upload/v1690650885/image_297_1_jrfh7o.jpg"
+                                class="zoom-svg gradio-logo" />
+                            <span class="tooltiptext">Gradio</span>
+                        </div>
+                    </div>
+                    <div class="topic-icon">
+                        <div class="tooltip" id="huggingFace">
+                            <img src="https://res.cloudinary.com/davztmw2w/image/upload/v1690651476/image_300_c8gpca.png"
+                                class="zoom-svg hugging-face-logo" />
+                            <span class="tooltiptext">Hugging Face</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-section footer-desktop">
+        <div class="divider-container">
+            <div class="divider"></div>
+        </div>
+        <div class="share-now">
+            <p class="footer-info share-now-text">Connect via&nbsp;&nbsp;</p>
+            <div class="icons-container">
+                <a href="mailto:zestful.zealot@email.com" class="social-icon email" target="_blank">
+                    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4ZM20 8.07L12 13L4 8.07V18H20V8.07ZM12 10.93L20 6H4L12 10.93Z"
+                            fill="#94A3B8" />
+                    </svg>
+                </a>
+
+                <a href="https://github.com/6vam4arya" class="social-icon github" target="_blank">
+                    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2C6.477 2 2 6.477 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21.02C9.5 20.78 9.49 19.95 9.49 19.11C7 19.65 6.35 18.57 6.15 18.02C6.04 17.74 5.56 16.87 5.14 16.63C4.8 16.45 4.31 15.99 5.13 15.98C5.9 15.97 6.45 16.69 6.63 16.98C7.5 18.45 8.91 18.03 9.47 17.78C9.56 17.15 9.81 16.72 10.09 16.47C7.89 16.22 5.59 15.37 5.59 11.59C5.59 10.51 5.98 9.62 6.61 8.92C6.51 8.67 6.16 7.65 6.71 6.28C6.71 6.28 7.54 6.02 9.43 7.3C10.22 7.08 11.06 6.97 11.9 6.97C12.74 6.97 13.58 7.08 14.37 7.3C16.26 6.01 17.09 6.28 17.09 6.28C17.64 7.65 17.29 8.67 17.19 8.92C17.82 9.62 18.21 10.5 18.21 11.59C18.21 15.38 15.9 16.22 13.7 16.47C14.06 16.78 14.37 17.38 14.37 18.32C14.37 19.67 14.36 20.75 14.36 21.02C14.36 21.27 14.52 21.59 15.02 21.5C18.99 20.17 21.86 16.41 21.86 12C21.86 6.477 17.38 2 11.86 2H12Z"
+                            fill="#94A3B8" />
+                    </svg>
+                </a>
+
+                <a href="https://www.linkedin.com/in/vamika-arya-4a0179288/" class="social-icon linkedin"
+                    target="_blank">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19.2977 3.7644C19.8281 3.7644 20.3368 3.97512 20.7119 4.35019C21.087 4.72526 21.2977 5.23397 21.2977 5.7644V19.7644C21.2977 20.2948 21.087 20.8035 20.7119 21.1786C20.3368 21.5537 19.8281 21.7644 19.2977 21.7644H5.29767C4.76724 21.7644 4.25853 21.5537 3.88345 21.1786C3.50838 20.8035 3.29767 20.2948 3.29767 19.7644V5.7644C3.29767 5.23397 3.50838 4.72526 3.88345 4.35019C4.25853 3.97512 4.76724 3.7644 5.29767 3.7644H19.2977ZM18.7977 19.2644V13.9644C18.7977 13.0998 18.4542 12.2706 17.8428 11.6592C17.2315 11.0479 16.4023 10.7044 15.5377 10.7044C14.6877 10.7044 13.6977 11.2244 13.2177 12.0044V10.8944H10.4277V19.2644H13.2177V14.3344C13.2177 13.5644 13.8377 12.9344 14.6077 12.9344C14.979 12.9344 15.3351 13.0819 15.5976 13.3445C15.8602 13.607 16.0077 13.9631 16.0077 14.3344V19.2644H18.7977ZM7.17767 9.3244C7.62323 9.3244 8.05055 9.14741 8.36561 8.83234C8.68067 8.51728 8.85767 8.08997 8.85767 7.6444C8.85767 6.7144 8.10767 5.9544 7.17767 5.9544C6.72945 5.9544 6.29959 6.13246 5.98266 6.44939C5.66572 6.76633 5.48767 7.19619 5.48767 7.6444C5.48767 8.5744 6.24767 9.3244 7.17767 9.3244ZM8.56767 19.2644V10.8944H5.79767V19.2644H8.56767Z"
+                            fill="#94A3B8" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Gradio Interface Application Link as seen from Hugging Face (Embed) -->
+    <div class="chat-bot-container">
+        <gradio-app src="https://arya6-genaichatbot.hf.space"></gradio-app>
+    </div>
+    </div>
+    
+</body>
+
+</html>
