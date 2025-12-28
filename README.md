@@ -3,18 +3,14 @@
 ### *A custom Gemini-powered assistant for developers and tech enthusiasts.*
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://verve.ccbp.tech)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)]
-[![LangChain](https://img.shields.io/badge/LangChain-⚡-blueviolet?style=for-the-badge)]
-[![Gradio](https://img.shields.io/badge/Gradio-UI-orange?style=for-the-badge)]
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
+![LangChain](https://img.shields.io/badge/LangChain-⚡-blueviolet?style=for-the-badge)
+![Gradio](https://img.shields.io/badge/Gradio-UI-orange?style=for-the-badge)
 
 ## Welcome to **Verve** – Your Friendly Generative AI Chatbot!
 Deployed at [**verve.ccbp.tech**](https://verve.ccbp.tech), **Verve** is always ready to tackle your **tech troubles** or chat about **anything under the sun**. Think of **Verve** as the **most Tech-Savvy Person** in the room – available **24/7** with zero coffee breaks required! 🚀💻
-
-
-Whether you're stuck on a tricky Python bug, want to discuss the latest NVIDIA GPUs or need a breakdown of how Transformers work, this bot is designed to think and speak like a peer who spends way too much time in a terminal.
-
-
-
+![Verve Assistant](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajNsdXNyZHB5bGwwaTVkZWVtcnNscHU5dHloanJhY3RpanQ2bTE4dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zbzuZgxt23h8ywu7Bm/giphy.gif)
+Whether you're stuck on a ***tricky Python bug***, want to discuss the ***latest NVIDIA GPUs*** or need a breakdown of ***how Transformers work***, this bot is designed to think and speak like a peer.
 ---
 
 ## 🛠️ Tech Stack
@@ -25,6 +21,6 @@ Whether you're stuck on a tricky Python bug, want to discuss the latest NVIDIA G
 * **Language:** Python 
 
 ---
-### *🚀 Built by an inquisitive leaner and an evolving developer.*
+### *🚀 Built by an inquisitive learner and an evolving developer.*
 
 ### *~Vamika Arya*
