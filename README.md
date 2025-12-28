@@ -24,13 +24,7 @@ Whether you're stuck on a tricky Python bug, want to discuss the latest NVIDIA G
 * **Hugging Face** – Platform for fine tuning and deploying AI models, providing live endpoints for running generative AI application in real time.
 * **Language:** Python 
 
-## 📂 Project Structure
-```bash
-├── app.py              # Gradio Chat Interface
-├── requirements.txt    # Project dependencies
-└── README.md           # Documentation
-
 ---
 ## *🚀 Built by an inquisitive leaner and an evolving developer.*
 
-### *~Vamika Arya*
+# *~Vamika Arya*
