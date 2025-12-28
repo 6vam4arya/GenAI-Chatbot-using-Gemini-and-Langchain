@@ -3,9 +3,9 @@
 ### *A custom Gemini-powered assistant for developers and tech enthusiasts.*
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://verve.ccbp.tech)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![LangChain](https://img.shields.io/badge/LangChain-⚡-blueviolet?style=for-the-badge)](https://www.langchain.com/)
-[![Gradio](https://img.shields.io/badge/Gradio-UI-orange?style=for-the-badge)](https://gradio.app/)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)]
+[![LangChain](https://img.shields.io/badge/LangChain-⚡-blueviolet?style=for-the-badge)]
+[![Gradio](https://img.shields.io/badge/Gradio-UI-orange?style=for-the-badge)]
 
 ## Welcome to **Verve** – Your Friendly Generative AI Chatbot!
 Deployed at [**verve.ccbp.tech**](https://verve.ccbp.tech), **Verve** is always ready to tackle your **tech troubles** or chat about **anything under the sun**. Think of **Verve** as the **most Tech-Savvy Person** in the room – available **24/7** with zero coffee breaks required! 🚀💻
@@ -29,3 +29,8 @@ Whether you're stuck on a tricky Python bug, want to discuss the latest NVIDIA G
 ├── app.py              # Gradio Chat Interface
 ├── requirements.txt    # Project dependencies
 └── README.md           # Documentation
+
+---
+## *🚀 Built by an inquisitive leaner and an evolving developer.*
+
+### *~Vamika Arya*
