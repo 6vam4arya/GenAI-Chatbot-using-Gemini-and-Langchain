@@ -8,8 +8,11 @@
 ![Gradio](https://img.shields.io/badge/Gradio-UI-orange?style=for-the-badge)
 
 ## Welcome to **Verve** – Your Friendly Generative AI Chatbot!
+
 Deployed at [**verve.ccbp.tech**](https://verve.ccbp.tech), **Verve** is always ready to tackle your **tech troubles** or chat about **anything under the sun**. Think of **Verve** as the **most Tech-Savvy Person** in the room – available **24/7** with zero coffee breaks required! 🚀💻
+
 ![Verve Assistant](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajNsdXNyZHB5bGwwaTVkZWVtcnNscHU5dHloanJhY3RpanQ2bTE4dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zbzuZgxt23h8ywu7Bm/giphy.gif)
+
 Whether you're stuck on a ***tricky Python bug***, want to discuss the ***latest NVIDIA GPUs*** or need a breakdown of ***how Transformers work***, this bot is designed to think and speak like a peer.
 ---
 
